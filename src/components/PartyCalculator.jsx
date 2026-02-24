@@ -7,7 +7,7 @@ export const PartyCalculator = () => {
   const [slicePerPizza, setSlicePerPizza] = useState(8);
 
   const totalSlices = people * slicesPerPerson;
-  const pizzaNeeded = Math.ceil(totalSlices / slicePerPizza);
+  const pizzaNeed = Math.ceil(totalSlices / slicePerPizza);
 
   return (
     //passing values to input and results as props to children
@@ -20,7 +20,7 @@ export const PartyCalculator = () => {
         slicePerpizza={slicePerPizza}
         setSlicePerPizza={setSlicePerPizza}
       />
-      <ResultsSection totalSlices={totalSlices} pizzaNeeded={pizzaNeeded} />
+      <ResultsSection totalSlices={totalSlices} pizzaNeed={pizzaNeed} />
     </div>
   );
 };
