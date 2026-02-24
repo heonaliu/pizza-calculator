@@ -1,0 +1,146 @@
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+/* =========================
+   PAGE BACKGROUND
+========================= */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff9966, #ff5e62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =========================
+   APP WRAPPER
+========================= */
+.app {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =========================
+   CARD
+========================= */
+.card {
+  background: white;
+  width: 380px;
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h1 {
+  text-align: center;
+  margin-bottom: 1.8rem;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+/* =========================
+   INPUTS SECTION
+========================= */
+.inputs-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.inputs-section label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.inputs-section input,
+.inputs-section select {
+  width: 100%;
+  padding: 0.6rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+/* Focus effect */
+.inputs-section input:focus,
+.inputs-section select:focus {
+  outline: none;
+  border-color: #ff5e62;
+  box-shadow: 0 0 0 3px rgba(255, 94, 98, 0.2);
+}
+
+/* =========================
+   RESULTS SECTION
+========================= */
+.results-section {
+  background: #fff3f3;
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.results-section p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.results-section .highlight {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ff5e62;
+}
+
+.results-section .secondary {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* =========================
+   OPTIONAL BUTTON STYLE
+========================= */
+.button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #ff5e62;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background: #ff3b3f;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 420px) {
+  .card {
+    width: 100%;
+  }
+}
