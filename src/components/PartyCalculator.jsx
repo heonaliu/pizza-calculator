@@ -24,7 +24,7 @@ export const PartyCalculator = () => {
         setPeople={setPeople}
         slicesPerPerson={slicesPerPerson}
         setSlicesPerPerson={setSlicesPerPerson}
-        slicePerpizza={slicePerPizza}
+        slicePerPizza={slicePerPizza}
         setSlicePerPizza={setSlicePerPizza}
       />
       <ResultsSection totalSlices={totalSlices} pizzaNeed={pizzaNeed} />

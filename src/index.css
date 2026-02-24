@@ -26,14 +26,14 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  background: #fff;
+  background: #813734;
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(110, 216, 68, 0.1);
+  box-shadow: 0 10px 30px #cb72689e;
   width: 100%;
   max-width: 600px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #a24849;
+  color: #fddbab;
   font-family: "Poppins", sans-serif;
 }
 
@@ -51,16 +51,13 @@ body {
    CARD
 ========================= */
 .card {
-  background: white;
+  background: #feeaca;
   width: 380px;
   padding: 2rem;
+  border: 5px solid #f299a1;
   border-radius: 18px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-2px);
 }
 
 .card h1 {
@@ -83,7 +80,7 @@ body {
 .inputs-section label {
   font-size: 0.9rem;
   font-weight: 500;
-  color: #555;
+  color: #86353c;
 }
 
 .inputs-section input,
@@ -108,17 +105,19 @@ body {
    RESULTS SECTION
 ========================= */
 .results-section {
-  background: #fff3f3;
+  background: linear-gradient(#feeaca, #fee1b3);
   padding: 1rem;
   border-radius: 12px;
+  border: 5px solid #f89a9d;
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 0.5rem;
 }
 
 .results-section p {
   font-size: 0.95rem;
-  color: #444;
+  color: #86353c;
 }
 
 .results-section .highlight {
@@ -142,13 +141,12 @@ body {
   border-radius: 10px;
   font-size: 1rem;
   cursor: pointer;
-  background: #ff5e62;
+  background: linear-gradient(#fdb136, #ea701b);
   color: white;
   transition: 0.2s ease;
 }
 
 .button:hover {
-  background: #ff3b3f;
   transform: translateY(-2px);
 }
 
