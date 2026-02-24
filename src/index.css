@@ -150,6 +150,30 @@ body {
   transform: translateY(-2px);
 }
 
+.pizza-header {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  transition: transform 0.2s ease; /* for hover animation */
+}
+
+.pizza-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 6px;
+  vertical-align: middle;
+  transition: transform 0.2s ease; /* for hover animation */
+}
+
+.pizza-icon:hover {
+  transform: scale(1.2) rotate(-10deg); /* fun little hover */
+}
+
 /* =========================
    RESPONSIVE
 ========================= */
