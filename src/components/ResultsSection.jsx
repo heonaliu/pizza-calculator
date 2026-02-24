@@ -1,9 +1,8 @@
-export const ResultsSection = () => {
+export const ResultsSection = ({ totalSlices, pizzaNeed }) => {
   return (
-    <div className="results-section card">
-      <p>Total Slices: 3</p>
-      <p>Pizzas Needed: 3</p>
-      <p>Total Slices</p>
+    <div className="results-section">
+      <p>Total Slices: {totalSlices}</p>
+      <p>Pizzas Needed: {pizzaNeed}</p>
     </div>
   );
 };

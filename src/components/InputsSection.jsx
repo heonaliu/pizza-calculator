@@ -1,10 +1,32 @@
 import { useState } from "react";
-export const InputSection = () => {
+export const InputSection = ({
+  people,
+  setPeople,
+  slicesPerPerson,
+  setSlicesPerPerson,
+  slicePerPizza,
+  setSlicePerPizza,
+}) => {
   return (
-    <div className="inputs-section card">
-      <p>Number of People:0</p>
-      <p>Slices Per Person:7</p>
-      <p> Slices Per Pizza:7</p>
+    <div className="inputs-section">
+      <label>Number of People</label>
+      <input
+        type="number"
+        value={people}
+        onChange={(e) => setPeople(e.target.value)}
+      />
+      <label>Slices Per Person</label>
+      <input
+        type="number"
+        value={slicesPerPerson}
+        onChange={(e) => setSlicesPerPerson(e.target.value)}
+      />
+      <label>Slices Per Pizza</label>
+      <input
+        type="number"
+        value={slicePerPizza}
+        onChange={(e) => setSlicePerPizza(e.target.value)}
+      />
     </div>
   );
 };

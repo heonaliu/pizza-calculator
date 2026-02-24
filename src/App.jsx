@@ -1,14 +1,12 @@
 import React from "react";
-import { ResultsSection } from "./components/ResultsSection";
-import { InputSection } from "./components/InputsSection";
+import { PartyCalculator } from "./components/PartyCalculator";
 function App() {
   return (
     <div className="app">
       <div>
         <h1 className="header">Party Pizza Calculator</h1>
       </div>
-      <InputSection />
-      <ResultsSection />
+      <PartyCalculator />
     </div>
   );
 }
