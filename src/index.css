@@ -14,7 +14,8 @@
 ========================= */
 body {
   min-height: 100vh;
-  background: #ffe8dc;
+  font-family: "Poppins", sans-serif;
+  background: #fdcad3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +33,8 @@ body {
   width: 100%;
   max-width: 600px;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #a24849;
+  font-family: "Poppins", sans-serif;
 }
 
 /* =========================
