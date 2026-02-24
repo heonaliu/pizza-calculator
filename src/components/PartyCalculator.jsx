@@ -1,4 +1,5 @@
 import { InputSection } from "./InputsSection";
+import { Reset } from "./Reset";
 import { ResultsSection } from "./ResultsSection";
 import { useState } from "react";
 export const PartyCalculator = () => {
@@ -8,6 +9,12 @@ export const PartyCalculator = () => {
 
   const totalSlices = people * slicesPerPerson;
   const pizzaNeed = Math.ceil(totalSlices / slicePerPizza);
+
+  const handleReset = () => {
+    setPeople(0);
+    setSlicesPerPerson(1);
+    setSlicePerPizza(8);
+  };
 
   return (
     //passing values to input and results as props to children
@@ -21,6 +28,7 @@ export const PartyCalculator = () => {
         setSlicePerPizza={setSlicePerPizza}
       />
       <ResultsSection totalSlices={totalSlices} pizzaNeed={pizzaNeed} />
+      <Reset onClick={handleReset} />
     </div>
   );
 };

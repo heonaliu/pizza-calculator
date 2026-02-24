@@ -15,7 +15,7 @@ export const InputSection = ({
 
     value = Math.floor(value);
 
-    if (value < 1) value = 1;
+    if (value < 1) value = 0;
 
     setPeople(value);
   };
@@ -61,8 +61,6 @@ export const InputSection = ({
         type="number"
         value={slicePerPizza}
         onChange={handleSlicePizzaChange}
-        min="1"
-        step="1"
       />
     </div>
   );
