@@ -1,16 +1,49 @@
-# React + Vite
+# Party Pizza Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun web app built with React that calculates how many pizzas you need for a party based on the number of people, slices per person, and slices per pizza. Perfect for planning parties!
 
-Currently, two official plugins are available:
+Try it: (Here)[https://party-pizza-calc.vercel.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This was fun practice to continuously practice working with ReactJS components! Especially working with states, functions, children props and more.
+Digital art was created by me!
 
-## React Compiler
+# Tech Stack:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- CSS
+- Vercel
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you’d like to run this project locally:
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/heonaliu/pizza-calculator.git
+```
+
+### 2️⃣ Navigate into the project folder
+
+```bash
+cd pizza-calculator
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and go to:
+
+```
+http://localhost:5173
+```
