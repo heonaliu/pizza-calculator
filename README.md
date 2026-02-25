@@ -2,7 +2,7 @@
 
 A fun web app built with React that calculates how many pizzas you need for a party based on the number of people, slices per person, and slices per pizza. Perfect for planning parties!
 
-Try it: (Here)[https://party-pizza-calc.vercel.app/]
+Try it: [https://party-pizza-calc.vercel.app/](https://party-pizza-calc.vercel.app/)
 
 This was fun practice to continuously practice working with ReactJS components! Especially working with states, functions, children props and more.
 Digital art was created by me!
